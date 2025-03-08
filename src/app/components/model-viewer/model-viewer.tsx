@@ -24,7 +24,9 @@ export const EthereumModel: React.FC = () => {
     });
 
     myModel.scene.traverse((object) => {
+        // @ts-ignore
         if (object.isMesh) {
+            // @ts-ignore
             object.material.color.set(0xffffff);
         }
     });
