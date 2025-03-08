@@ -1,7 +1,6 @@
 "use client";
 
 import Candle, { CandleProps } from "@svarog/app/shared/candle/candle";
-import Image from "next/image";
 import { useState } from "react";
 
 const Candles = () => {
@@ -13,27 +12,27 @@ const Candles = () => {
         },
         {
             name: "Candle 2",
-            src: "",
+            src: "https://picsum.photos/600/600?random=1",
             price: "66",
         },
         {
             name: "Candle 3",
-            src: "",
+            src: "https://picsum.photos/600/600?random=1",
             price: "45",
         },
         {
             name: "Candle 4",
-            src: "",
+            src: "https://picsum.photos/600/600?random=1",
             price: "21",
         },
         {
             name: "Candle 5",
-            src: "",
+            src: "https://picsum.photos/600/600?random=1",
             price: "32",
         },
         {
             name: "Candle 6",
-            src: "",
+            src: "https://picsum.photos/600/600?random=1",
             price: "12",
         },
     ]);
